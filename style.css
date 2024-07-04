@@ -10,6 +10,7 @@ body{
     direction: rtl;
     background: #000;
     display: flex;
+    position: relative;
 }
 
 .profile{
@@ -141,4 +142,15 @@ th{
 td:hover{
     background-color: #ffffff55;
     cursor: pointer;
+}
+
+footer{
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    bottom: -65px;
+    width: 100%;
+    background: #123;
+    padding: 10px 10px;
 }
